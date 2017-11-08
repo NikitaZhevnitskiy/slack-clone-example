@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginVCViewController: UIViewController {
+class LoginVCV: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +18,9 @@ class LoginVCViewController: UIViewController {
 
     @IBAction func closePressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func createBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
     }
 }
