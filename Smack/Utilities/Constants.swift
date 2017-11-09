@@ -13,6 +13,8 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 // API
 let BASE_URL = "http://localhost:3005/v1"
 let URL_REGISTER = "\(BASE_URL)/account/register"
+let URL_LOGIN = "\(BASE_URL)/account/login"
+
 
 
 // Segues
@@ -25,5 +27,8 @@ let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
 let USER_EMAIL = "userEmail"
 
-
+// headers
+let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
 

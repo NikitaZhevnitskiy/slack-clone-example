@@ -188,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="240" y="-275.7042253521127"/>
         </scene>
-        <!--LoginVCV-->
+        <!--LoginVC-->
         <scene sceneID="2IV-Ay-MbT">
             <objects>
-                <viewController id="AI6-Mp-BIp" customClass="LoginVCV" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AI6-Mp-BIp" customClass="LoginVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HHp-EL-FiU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
